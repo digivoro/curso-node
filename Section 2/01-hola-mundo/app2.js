@@ -4,5 +4,5 @@ function saludar(nombre) {
   return mensaje;
 }
 
-let saludo = saludar("Felipe");
+let saludo = saludar("Felipinho");
 console.log(saludo);
