@@ -1,0 +1,6 @@
+[
+  { "descripcion": "Pasear al gato", "completado": false },
+  { "descripcion": "Pasear al humano", "completado": true },
+  { "descripcion": "Pasear al perro", "completado": false },
+  { "descripcion": "Pasear al conejo", "completado": true }
+]
