@@ -1,4 +1,5 @@
 const axios = require("axios");
+const { config } = require("../config/config");
 
 /**
  * Esta función no fue implementada porque el API retorna un objeto null. Usar getSpottLatLon()
@@ -41,7 +42,7 @@ const getSpottLatLon = async location => {
     url: "https://spott.p.rapidapi.com/places",
     params: { type: "CITY", limit: "10", q: `${encodedLocation}` },
     headers: {
-      "x-rapidapi-key": "d5e0f7d902mshbc8b97df38e8084p1586dajsn61b7aa9f5e3d",
+      "x-rapidapi-key": config.rapidApiKey,
       "x-rapidapi-host": "spott.p.rapidapi.com"
     }
   };

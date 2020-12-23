@@ -11,7 +11,7 @@ Curso: ["Node: de cero a experto"](https://www.udemy.com/course/node-de-cero-a-e
 - Section 3: [Reforzamiento de los temas necesarios para seguir el curso](https://github.com/digivoro/curso-node/tree/main/Section%203/02-fundamentos)
 - Section 4: [Bases de node](https://github.com/digivoro/curso-node/tree/main/Section%204/03-bases-node)
 - Section 5: [Aplicación de tareas por hacer](https://github.com/digivoro/curso-node/tree/main/Section%205/04-por-hacer)
-- Section 6: Aplicación del Clima - GeoLocation + Open Weather
+- Section 6: [Aplicación del Clima - GeoLocation + Open Weather](https://github.com/digivoro/curso-node/tree/main/Section%206/05-clima-mundo)
 - Section 7: Webserver - HTTP - EXPRESS - HBS
 - Section 8: REST Server - Configuraciones iniciales
 - Section 9: Alcances del RESTServer y mantenimiento de la colección de usuarios

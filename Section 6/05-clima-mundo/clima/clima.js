@@ -1,4 +1,5 @@
 const axios = require("axios");
+const { config } = require("../config/config");
 
 const getCurrentWeather = async (lat, lon) => {
   console.log(`Buscando datos del clima para (${lat},${lon})`);
@@ -7,7 +8,7 @@ const getCurrentWeather = async (lat, lon) => {
     url: "https://community-open-weather-map.p.rapidapi.com/weather",
     params: { lat, lon, units: "metric", lang: "sp" },
     headers: {
-      "x-rapidapi-key": "d5e0f7d902mshbc8b97df38e8084p1586dajsn61b7aa9f5e3d",
+      "x-rapidapi-key": config.rapidApiKey,
       "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
     }
   };
